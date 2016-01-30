@@ -251,7 +251,7 @@
 
 
     #music {
-        height: 450px;
+        height: 475px;
         position: relative;
         background-image: url(../img/landscape.jpg);
         margin-top: 0;
@@ -263,7 +263,7 @@
 
     .alternativelifestyle {
         position: absolute;
-        top: 40px;
+        top: 45px;
         left: 20%;
         z-index: 20;
         background-color: black;
@@ -312,7 +312,7 @@
 
     .reup {
         position: absolute;
-        top: 40px;
+        top: 45px;
         right: 15%;
 
     }
