@@ -9,7 +9,7 @@ $('.scrollTo').on('click', function(e) {
   var thisTarget = $(this).attr('href');
   var targetOffset = $(thisTarget).offset().top;
 
-  // targetOffset -= 5;
+  targetOffset -= 55;
 
   $('body').animate({
     scrollTop: targetOffset
