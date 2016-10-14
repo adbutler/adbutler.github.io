@@ -188,16 +188,13 @@
     background-color: #DFDFDE;
     }
 
-
-
-
-
     .unusualSuspects {
     position: relative;
     left: 15%;
-    z-index: 50;}
+    z-index: 50;
+    }
 
-    #news-three .leftBox {
+.leftBox {
     position: absolute;
     width: 15%;
     height: 450px;
@@ -205,7 +202,7 @@
     background-color: #DFDFDE;
 }
 
-#news-three .rightBox {
+.rightBox {
     position: absolute;
     right: 0;
     top: 0;
@@ -213,52 +210,14 @@
     height: 450px;
     border-top: 31.5px solid #F12E1D;
     background-color: #DFDFDE;
-    padding: 40px 0 0 15%;
 }
 
-/*.releaseDate {
+.releaseDate {
     position: absolute;
-    top: 10;
-    left: 80;
-}*/
-
-/*    #news-three {
-    position: absolute;
-    width: 100%;
-    background-color: #DFDFDE;
-    position: relative;
+    right: 5%;
+    top: 20%;
+    z-index: 51;
 }
-
-#news-three img {
-    position: absolute;
-    left: 15%;
-    z-index: 50;
-}
-
-#news-three .leftBox {
-    position: absolute;
-    width: 15%;
-    height: 450px;
-    border-top: 36px solid #F2372B;
-    background-color: #DFDFDE;
-}
-
-#news-three .rightBox {
-    position: absolute;
-    right: 0;
-    width: 55%;
-    height: 450px;
-    border-top: 31.5px solid #F12E1D;
-    background-color: #DFDFDE;
-}
-
-.rightBox p {
-    position: absolute;
-    margin: 0;
-    left: 40%;
-    top: 75px;
-    color: white;
-}*/
 
     #bio {
         height: 550px;
@@ -697,6 +656,10 @@ footer {
             right: 5%;
         }
 
+        .releaseDate {
+        left: 25%;
+        }
+
 
 
     }
@@ -766,6 +729,16 @@ footer {
         .contactInfo {
             left: 30%;
         }
+
+        .unusualSuspects {
+            position: relative;
+            left: 0;
+        }
+
+                .releaseDate {
+        left: 60px;
+        }
+
 
     }
 
