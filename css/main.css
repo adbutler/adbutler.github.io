@@ -780,6 +780,18 @@ footer {
 
     }
 
+        @media (max-width: 500px) {
+        .unusualSuspects {
+            width: 100%;
+        }
+          .releaseDate {
+                left: 10px;
+                top: 43px;
+
+        }
+
+        }
+
     @media (max-width: 475px) {
         .bioWords {
             overflow: scroll;
