@@ -192,7 +192,7 @@
 
 
 
-    #news-three img {
+    .unusualSuspects {
     position: relative;
     left: 15%;
     z-index: 50;}
@@ -213,10 +213,13 @@
     height: 450px;
     border-top: 31.5px solid #F12E1D;
     background-color: #DFDFDE;
+    padding: 40px 0 0 15%;
 }
 
-/*.rightBox img {
+/*.releaseDate {
     position: absolute;
+    top: 10;
+    left: 80;
 }*/
 
 /*    #news-three {
